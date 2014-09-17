@@ -1,0 +1,17 @@
+%DOCTYPE
+%html
+	%head
+		%title
+			some title
+		%
+	%
+	%body id="body" class="body" nonsens="some/nosens.fle" 
+		$body
+		%img% src="test"
+		%if test_if
+			%require ./nested.npt
+		%else
+			%img% alt="test_if"
+		%endif
+	%
+%

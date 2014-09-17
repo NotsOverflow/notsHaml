@@ -1,0 +1,13 @@
+%ul id="items" name="ajax_update"
+	%li name="item.name"
+	%
+%
+%div id="hello"
+	hello
+	%if isFriday
+		%for 6
+			%img% alt="nested1"
+			%require nested2.npt
+		%endfor
+	%endif
+%
